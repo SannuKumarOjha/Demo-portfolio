@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">SONU OJHA</h1>
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Section</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#" class="loginBtn">Login</a></li>
+            </ul>
+            <div id="menuBtn">
+                <i class="fa-solid fa-bars" id="menu"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="hero_section">
+        <div class="shadow"></div>
+        <div class="hero_image">
+            <img src="hero.jpg" alt="MyImage">
+        </div>
+        <div class="main_content">
+            <h1>Hii, <br>
+                <h2>My name is <span>Sonu Kumar Ojha</span></h2></h1>
+            <span id="element"></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim molestiae sequi a maxime ipsa unde <br>laborum laudantium cum iste. Rerum.</p>
+            <div class="buttons">
+                <a href="#" id="resume">Resume <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" id="contact">Contact Me <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="up_btns">
+            </div>
+            <div class="dn_btns">
+            </div>
+            <div class="g_btns">
+            </div>
+            <div class="f_btns">
+                <i class="fa-brands fa-slack"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer' , 'Graphic Designer' , 'Video Editor'],
+      typeSpeed: 80,
+    });
+  </script>
+</body>
+</html>
